@@ -17,7 +17,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
       rounded-full
       bg-black
       border-transparent
-      px-3
+      px-4
       py-2
       disabled:cursor-not-allowed
       disabled:opacity-50
@@ -25,8 +25,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
       font-semibold
       hover:opacity-75
       transition
-      `
-    )}ref={ref}
+      `,
+      className
+    )}
+    ref={ref}
     {...props} 
     >
       {children}

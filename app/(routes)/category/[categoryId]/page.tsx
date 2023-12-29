@@ -49,11 +49,8 @@ const CategoryPage: React.FC<CategoryProps> = async({
                                 name="Sizes"
                                 data={sizes}
                             />
-
                         </div>
-
                     </div>
-
                 </div>
             </Container>
         </div>

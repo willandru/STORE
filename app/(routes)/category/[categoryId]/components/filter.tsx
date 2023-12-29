@@ -40,6 +40,8 @@ const Filter:React.FC<FilterProps> = ({
             url: window.location.href,
             query
         }, {skipNull: true});
+
+        router.push(url);
     }
 
     return(
