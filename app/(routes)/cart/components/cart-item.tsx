@@ -12,6 +12,10 @@ interface CartItemProps {
   data: Product;
 }
 
+
+
+
+
 const CartItem: React.FC<CartItemProps> = ({
   data
 }) => {
@@ -20,6 +24,10 @@ const CartItem: React.FC<CartItemProps> = ({
   const onRemove = () => {
     cart.removeItem(data.id);
   };
+
+
+
+
 
   return ( 
     <li className="flex py-6 border-b">
